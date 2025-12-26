@@ -13,6 +13,10 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
+p {
+    direction: rtl;
+    text-align: right; /* optional but usually desired for RTL languages */
+}
 
 a {
   color: #005000;
@@ -241,7 +245,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.webp") top center;
   background-size: cover;
 }
 

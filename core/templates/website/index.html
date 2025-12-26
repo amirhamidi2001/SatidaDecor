@@ -1,278 +1,245 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="fa-IR">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>دکوراسیون ساتیدا | طراحی داخلی، رگال، کناف، ترمووود، ویترین و دکور اداری</title>
 
-  <title>وبسایت دکوراسیون ساتیدا</title>
-  <meta name="description" content="شرکت دکوراسیون ساتیدا در زمینه طراحی داخلی فعالیت می‌کند. این شرکت با بهره‌گیری از تجربه کارشناسان خود، به ارائه خدماتی با کیفیت بالا در زمینه‌های رگال کناف ترمووود ویترین دکور فروشگاه و دکوراسیون دفاتر اداری می‌پردازد">
-  <meta name="keywords" content="دکوراسیون ساتیدا">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:title" content="وبسایت دکوراسیون ساتیدا">
-  <meta property="og:description" content="وبسایت دکوراسیون ساتیدا">
-  <meta property="og:image" content="https://satidadecor.pythonanywhere.com/static/assets/img/apple-touch-icon.png">
-  <meta property="og:url" content="https://satidadecor.pythonanywhere.com/">
+    <!-- Meta Description -->
+    <meta name="description" content="طراحی داخلی و دکوراسیون حرفه‌ای توسط شرکت دکوراسیون ساتیدا. ارائه خدمات تخصصی شامل رگال، کناف، ترمووود، ویترین فروشگاهی و دکور دفاتر اداری با بهترین کیفیت." />
 
+    <!-- SEO Keywords -->
+    <meta name="keywords" content="دکوراسیون ساتیدا، طراحی داخلی، رگال، کناف، ترمووود، دکور فروشگاه، ویترین فروشگاهی، دکوراسیون اداری" />
 
-  <!-- Favicons -->
-  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
-  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="دکوراسیون ساتیدا | ارائه خدمات برتر طراحی داخلی" />
+    <meta property="og:description" content="طراحی داخلی، کناف، رگال، ترمووود و ویترین فروشگاهی با اجرای حرفه‌ای توسط ساتیدا." />
+    <meta property="og:image" content="https://satidadecor.pythonanywhere.com/static/assets/img/apple-touch-icon.png" />
+    <meta property="og:url" content="https://satidadecor.pythonanywhere.com/" />
+    <meta property="og:type" content="website" />
 
-  <!-- Vendor CSS Files -->
-  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="icon" href="{% static 'assets/img/favicon.png' %}" />
+    <link rel="apple-touch-icon" href="{% static 'assets/img/apple-touch-icon.png' %}" />
 
-  <!-- Template Main CSS File -->
-  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700|Poppins:300,400,500,600,700" rel="stylesheet" />
 
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Updated: May 30 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+    <!-- Vendor CSS Files -->
+    <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet" />
 
-<body>
+    <!-- Template Main CSS File -->
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet" />
+  </head>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img src="{% static 'assets/img/profile-img.webp' %}" alt="logo" class="img-fluid rounded-circle" />
+          <h1 class="text-light"><a href="{% url 'website:index' %}">ساتیدا دکور</a></h1>
 
-      <div class="profile">
-        <img src="{% static 'assets/img/profile-img.jpg' %}" alt="logo" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="{% url 'website:index' %}">ساتیدا دکور</a></h1>
+          {% include 'website/social.html' %}
+        </div>
 
-        {% include 'website/social.html' %}
-
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>صفحه اصلی</span></a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>درباره</span></a>
+            </li>
+            <li>
+              <a href="#regal" class="nav-link scrollto"><i class="bx bx-abacus"></i> <span>رگال</span></a>
+            </li>
+            <li>
+              <a href="#kanuf" class="nav-link scrollto"><i class="bx bx-building"></i> <span>کناف</span></a>
+            </li>
+            <li>
+              <a href="#thermowood" class="nav-link scrollto"><i class="bx bx-bed"></i> <span>ترمووود</span></a>
+            </li>
+            <li>
+              <a href="#vitrin" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>ویترین</span></a>
+            </li>
+            <li>
+              <a href="#decor" class="nav-link scrollto"><i class="bx bx-server"></i> <span>دکور</span></a>
+            </li>
+            <li>
+              <a href="{% url 'website:contact' %}" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>ارتباط با ما</span></a>
+            </li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
       </div>
+    </header>
+    <!-- End Header -->
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>صفحه اصلی</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>درباره</span></a></li>
-          <li><a href="#regal" class="nav-link scrollto"><i class="bx bx-abacus"></i> <span>رگال</span></a></li>
-          <li><a href="#kanuf" class="nav-link scrollto"><i class="bx bx-building"></i> <span>کناف</span></a></li>
-          <li><a href="#thermowood" class="nav-link scrollto"><i class="bx bx-bed"></i> <span>ترمووود</span></a></li>
-          <li><a href="#vitrin" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>ویترین</span></a></li>
-          <li><a href="#decor" class="nav-link scrollto"><i class="bx bx-server"></i> <span>دکور</span></a></li>
-          <li><a href="{% url 'blog:blog' %}" class="nav-link scrollto"><i class="bx bx-menu"></i> <span>وبلاگ</span></a></li>
-          <li><a href="{% url 'website:shop' %}" class="nav-link scrollto"><i class="bx bx-store-alt"></i> <span>فروشگاه</span></a></li>
-          <li><a href="{% url 'website:contact' %}" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>ارتباط با ما</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>دکوراسیون ساتیدا</h1>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>درباره</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="{% static 'assets/img/profile-img.jpg' %}" class="img-fluid" alt="logo">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>شرکت دکوراسیون ساتیدا</h3>
-            <p>
-              شرکت دکوراسیون ساتیدا با سال ها سابقه در زمینه طراحی داخلی فعالیت می‌کند. این شرکت با بهره‌گیری از تجربه و دانش کارشناسان خود، به ارائه خدماتی با کیفیت بالا در زمینه‌های رگال، کناف، ترمووود، ویترین، دکور فروشگاه و دکوراسیون دفاتر اداری می‌پردازد
-            </p>
-            <p>
-              شرکت دکوراسیون ساتیدا با استفاده از ابزار با کیفیت بالا و طراحی‌های مدرن و جذاب، بهترین نتیجه را در ارائه خدمات خود به مشتریان خود ارائه می‌دهد. علاوه بر این، این شرکت با توجه به نیازهای مشتریان خود، خدمات خود را با قیمت مناسب و در حداقل زمان ممکن ارائه می‌دهد
-            </p>
-            <p>
-              آدرس شرکت دکوراسیون ساتیدا در تهران - بزرگ راه امام رضا شهرک صنعتی ثامن الحجج کوچه ۱۳ شرقی پلاک ۱۰۰۴ می‌باشد. ساعت کاری این شرکت همه روزه بجز روزهای تعطیل از ساعت ۸ صبح تا ۵ عصر می‌باشد
-            </p>
-            <p>
-              شرکت دکوراسیون ساتیدا با ارائه خدمات با کیفیت و در حداقل زمان ممکن، همواره به دنبال ایجاد رضایت کامل مشتریان خود است. برای اطلاعات بیشتر و یا درخواست خدمات، می‌توانید با شماره تلفن‌های شرکت تماس حاصل نمایید
-            </p>
-          </div>
-        </div>
-
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+      <div class="hero-container" data-aos="fade-in">
+        <h1>دکوراسیون ساتیدا</h1>
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End Hero -->
 
-    <!-- ======= regal Section ======= -->
-    <section id="regal" class="regal">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>رگال</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="{% static 'assets/img/portfolio/portfolio-1.jpg' %}" class="img-fluid" alt="regal">
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>درباره</h2>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3><a href="https://satidastore.pythonanywhere.com/">رگال ساتیدا</a></h3>
-            <p>
-              دکوراسیون ساتیدا، با همکاری کادری مجرب و حرفه‌ای در زمینه فروش انواع متریال رگال و نصب و اجرای آن، در خدمت شما قرار دارد
-            </P>
-            <p>
-              رگال به سازه‌های فلزی و چوبی اطلاق می‌شود که امروزه کاربرد بسیار گسترده‌ای در نظم دادن به انواع فضاها از جمله کالاگذاری، فروشگاه‌ها، منازل، دفاتر و ادارات دارد. با تنوع بسیار بالا در سبک و نحوه اجرا و همچنین بهره‌وری اقتصادی، رگال توانسته است مخاطبان را به خود جذب کند
-            </p>
-          </div>
-        </div>
 
-      </div>
-    </section><!-- End regal Section -->
-
-    <!-- ======= kanuf Section ======= -->
-    <section id="kanuf" class="kanuf">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>کناف</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="{% static 'assets/img/portfolio/portfolio-2.jpg' %}" class="img-fluid" alt="kanuf">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <p>
-              دکوراسیون ساتیدا، با سال‌ها تجربه در زمینه اجرای کناف، در خدمت شماست. به صفحه‌های گچی با روکش کاغذی که اغلب توسط سازه‌های گالوانیزه نصب می‌شوند، کناف گفته می‌شود
-            </p>
-            <p>
-              این محصول علاوه بر ایجاد دکوراسیونی چشم نواز، عایق صوتی و حرارتی و همچنین اجرای دیوار جداکننده و... بسیار کاربردی است
-            </p>
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="{% static 'assets/img/profile-img.webp' %}" class="img-fluid" alt="logo" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3 style="direction: rtl; text-align: right;">شرکت دکوراسیون ساتیدا</h3>
+              <p>شرکت دکوراسیون ساتیدا با سال ها سابقه در زمینه طراحی داخلی فعالیت می‌کند. این شرکت با بهره‌گیری از تجربه و دانش کارشناسان خود، به ارائه خدماتی با کیفیت بالا در زمینه‌های رگال، کناف، ترمووود، ویترین، دکور فروشگاه و دکوراسیون دفاتر اداری می‌پردازد</p>
+              <p>شرکت دکوراسیون ساتیدا با استفاده از ابزار با کیفیت بالا و طراحی‌های مدرن و جذاب، بهترین نتیجه را در ارائه خدمات خود به مشتریان خود ارائه می‌دهد. علاوه بر این، این شرکت با توجه به نیازهای مشتریان خود، خدمات خود را با قیمت مناسب و در حداقل زمان ممکن ارائه می‌دهد</p>
+              <p>آدرس شرکت دکوراسیون ساتیدا در تهران - بزرگ راه امام رضا شهرک صنعتی ثامن الحجج کوچه ۱۳ شرقی پلاک ۱۰۰۴ می‌باشد. ساعت کاری این شرکت همه روزه بجز روزهای تعطیل از ساعت ۸ صبح تا ۵ عصر می‌باشد</p>
+              <p>شرکت دکوراسیون ساتیدا با ارائه خدمات با کیفیت و در حداقل زمان ممکن، همواره به دنبال ایجاد رضایت کامل مشتریان خود است. برای اطلاعات بیشتر و یا درخواست خدمات، می‌توانید با شماره تلفن‌های شرکت تماس حاصل نمایید</p>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- End About Section -->
 
-      </div>
-    </section><!-- End kanuf Section -->
-
-    <!-- ======= thermowood Section ======= -->
-    <section id="thermowood" class="thermowood">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>ترمووود</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="{% static 'assets/img/portfolio/portfolio-3.jpg' %}" class="img-fluid" alt="thermowood">
+      <!-- ======= regal Section ======= -->
+      <section id="regal" class="regal">
+        <div class="container">
+          <div class="section-title">
+            <h2>رگال</h2>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <p>
-              ترمووود به چوب‌هایی گفته می‌شود که به وسیله اعمال تغییرات در کوره و ضداب شدن، در برابر رطوبت و افات مقاوم شده‌اند. این محصول کاربرد زیادی در زمینه دکوراسیون دارد. فروشگاه دکوراسیون ساتیدا با ارایه انواع ترمووود و چوب روس در سایزهای مختلف، آماده خدمت رسانی به شما عزیزان است
-            </p>
-          </div>
-        </div>
 
-      </div>
-    </section><!-- End thermowood Section -->
-
-    <!-- ======= vitrin Section ======= -->
-    <section id="vitrin" class="vitrin">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>ویترین و دکور فروشگاه</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="{% static 'assets/img/portfolio/portfolio-4.jpg' %}" class="img-fluid" alt="vitrin">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <p>
-              امروزه در بازارهای مدرن، به هر نقطه‌ای که نگاه کنید، با دکوراسیون جدید و منحصر به فردی برخورد می‌کنید که شاید تاکنون مانند آن را ندیده باشید
-            </p>
-            <p>
-              صنعت دکوراسیون، به ویژه در زمینه ویترین و دکور فروشگاه‌ها، روز به روز در حال پیشرفت است. گروه دکوراسیون ساتیدا با ارائه خدمات بی‌نظیر دکوراسیونی، در کنار شماست
-            </p>
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="{% static 'assets/img/portfolio/portfolio-1.webp' %}" class="img-fluid" alt="regal" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3 style="direction: rtl; text-align: right;"><a href="https://satidastore.pythonanywhere.com/">رگال ساتیدا</a></h3>
+              <p>دکوراسیون ساتیدا، با همکاری کادری مجرب و حرفه‌ای در زمینه فروش انواع متریال رگال و نصب و اجرای آن، در خدمت شما قرار دارد</p>
+              <p>رگال به سازه‌های فلزی و چوبی اطلاق می‌شود که امروزه کاربرد بسیار گسترده‌ای در نظم دادن به انواع فضاها از جمله کالاگذاری، فروشگاه‌ها، منازل، دفاتر و ادارات دارد. با تنوع بسیار بالا در سبک و نحوه اجرا و همچنین بهره‌وری اقتصادی، رگال توانسته است مخاطبان را به خود جذب کند</p>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- End regal Section -->
 
-      </div>
-    </section><!-- End vitrin Section -->
-
-    <!-- ======= decor Section ======= -->
-    <section id="decor" class="decor">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>دکوراسیون دفاتر اداری</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="{% static 'assets/img/portfolio/portfolio-5.jpg' %}" class="img-fluid" alt="decor">
+      <!-- ======= kanuf Section ======= -->
+      <section id="kanuf" class="kanuf">
+        <div class="container">
+          <div class="section-title">
+            <h2>کناف</h2>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <p>
-              وقتی وارد یک فضای جدید می‌شویم، اولین چیزی که توجه ما را به خود جلب می‌کند، دکوراسیون و چیدمان آن فضا است. دکوراسیون نقش به سزایی در جذب مخاطبان و افزایش پرستیژ محل کار دارد. گروه دکوراسیون ساتیدا با سال‌ها تجربه در زمینه دکوراسیون و با کادری مجرب و حرفه‌ای، به شما کمک می‌کند تا بهترین نسخه خود باشید
-            </p>
+
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="{% static 'assets/img/portfolio/portfolio-2.webp' %}" class="img-fluid" alt="kanuf" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <p>دکوراسیون ساتیدا، با سال‌ها تجربه در زمینه اجرای کناف، در خدمت شماست. به صفحه‌های گچی با روکش کاغذی که اغلب توسط سازه‌های گالوانیزه نصب می‌شوند، کناف گفته می‌شود</p>
+              <p>این محصول علاوه بر ایجاد دکوراسیونی چشم نواز، عایق صوتی و حرارتی و همچنین اجرای دیوار جداکننده و... بسیار کاربردی است</p>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- End kanuf Section -->
 
-      </div>
-    </section><!-- End decor Section -->
+      <!-- ======= thermowood Section ======= -->
+      <section id="thermowood" class="thermowood">
+        <div class="container">
+          <div class="section-title">
+            <h2>ترمووود</h2>
+          </div>
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>توضیحات</h2>
-          <p>یکسری توضیحات اضافه</p>
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="{% static 'assets/img/portfolio/portfolio-3.webp' %}" class="img-fluid" alt="thermowood" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <p>ترمووود به چوب‌هایی گفته می‌شود که به وسیله اعمال تغییرات در کوره و ضداب شدن، در برابر رطوبت و افات مقاوم شده‌اند. این محصول کاربرد زیادی در زمینه دکوراسیون دارد. فروشگاه دکوراسیون ساتیدا با ارایه انواع ترمووود و چوب روس در سایزهای مختلف، آماده خدمت رسانی به شما عزیزان است</p>
+            </div>
+          </div>
         </div>
+      </section>
+      <!-- End thermowood Section -->
 
-      </div>
-    </section><!-- End Testimonials Section -->
+      <!-- ======= vitrin Section ======= -->
+      <section id="vitrin" class="vitrin">
+        <div class="container">
+          <div class="section-title">
+            <h2>ویترین و دکور فروشگاه</h2>
+          </div>
 
-  </main><!-- End #main -->
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="{% static 'assets/img/portfolio/portfolio-4.webp' %}" class="img-fluid" alt="vitrin" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <p>امروزه در بازارهای مدرن، به هر نقطه‌ای که نگاه کنید، با دکوراسیون جدید و منحصر به فردی برخورد می‌کنید که شاید تاکنون مانند آن را ندیده باشید</p>
+              <p>صنعت دکوراسیون، به ویژه در زمینه ویترین و دکور فروشگاه‌ها، روز به روز در حال پیشرفت است. گروه دکوراسیون ساتیدا با ارائه خدمات بی‌نظیر دکوراسیونی، در کنار شماست</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End vitrin Section -->
 
-  <!-- ======= Footer ======= -->
-  {% include 'website/footer.html' %}
-  <!-- End  Footer -->
+      <!-- ======= decor Section ======= -->
+      <section id="decor" class="decor">
+        <div class="container">
+          <div class="section-title">
+            <h2>دکوراسیون دفاتر اداری</h2>
+          </div>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="{% static 'assets/img/portfolio/portfolio-5.webp' %}" class="img-fluid" alt="decor" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <p>وقتی وارد یک فضای جدید می‌شویم، اولین چیزی که توجه ما را به خود جلب می‌کند، دکوراسیون و چیدمان آن فضا است. دکوراسیون نقش به سزایی در جذب مخاطبان و افزایش پرستیژ محل کار دارد. گروه دکوراسیون ساتیدا با سال‌ها تجربه در زمینه دکوراسیون و با کادری مجرب و حرفه‌ای، به شما کمک می‌کند تا بهترین نسخه خود باشید</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End decor Section -->
+    </main>
+    <!-- End #main -->
 
-  <!-- Vendor JS Files -->
-  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
-  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
-  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
-  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
-  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
-  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
-  <script src="{% static 'assets/vendor/typed.js/typed.umd.js' %}"></script>
-  <script src="{% static 'assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
-  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+    <!-- ======= Footer ======= -->
+    {% include 'website/footer.html' %}
+    <!-- End Footer -->
 
-  <!-- Template Main JS File -->
-  <script src="{% static 'assets/js/main.js' %}"></script>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-</body>
+    <!-- Vendor JS Files -->
+    <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+    <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+    <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/typed.js/typed.umd.js' %}"></script>
+    <script src="{% static 'assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+    <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
 
+    <!-- Template Main JS File -->
+    <script src="{% static 'assets/js/main.js' %}"></script>
+  </body>
 </html>
